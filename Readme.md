@@ -2,6 +2,7 @@
 
 * Студент: [Олег Чумерин](https://up.htmlacademy.ru/htmlcss/39/user/2445631).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Сайт: [Мой проект Седона](https://olegchumerin14.github.io/2445631-sedona-39/)
 
 ---
 
