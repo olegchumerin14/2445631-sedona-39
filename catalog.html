@@ -51,10 +51,8 @@
           <legend>Инфраструктура:</legend>
           <input type="checkbox" name="checkbox_swimmingpool" id="input_swimmingpool" checked>
           <label for="input_swimmingpool">Бассейн</label>
-
           <input type="checkbox" name="checkbox_parking" id="input_parking" checked>
           <label for="input_parking">Парковка</label>
-
           <input type="checkbox" name="checkbox_wifi" id="input_wifi">
           <label for="input_wifi">Wi-Fi</label>
         </fieldset>
@@ -62,10 +60,8 @@
           <legend>Тип жилья:</legend>
           <input type="radio" name="input_house" id="input_hotel" value="hotel" checked>
           <label for="input_hotel">Гостиница</label>
-
           <input type="radio" name="input_house" id="input_motel" value="motel">
           <label for="input_motel">Мотель</label>
-
           <input type="radio" name="input_house" id="input_apartments" value="apartments">
           <label for="input-apartments">Апартаменты</label>
         </fieldset>
@@ -87,15 +83,15 @@
         <option value="expensive">Сначала дорогие</option>
         <option value="high_rated">Сначала с высоким рейтингом</option>
       </select>
-      <button class="button_tableview" type="button">
+      <a class="link_tableview" href="#">
         <span class="visually-hidden">Отобразить в виде таблицы</span>
-      </button>
-      <button class="button_moreview" type="button">
+      </a>
+      <a class="link_moreview" href="#">
         <span class="visually-hidden">Отобразить полностью</span>
-      </button>
-      <button class="button_listview" type="button">
+      </a>
+      <a class="link_listview" href="#">
         <span class="visually-hidden">Отобразить в виде списка</span>
-      </button>
+      </a>
       <ul class="catalog_list">
         <li class="catalog_item">
           <img src="#" alt="Amara Resort & Spa">
@@ -173,23 +169,23 @@
       <form class="subscribe_form" action="https://echo.htmlacademy.ru/" method="post">
         <label class="visually-hidden" for="user_email">Ваш E-mail</label>
         <input class="field" type="text" placeholder="Введите E-mail">
-        <button class="subscribe_button">Подписаться</button>
+        <button class="subscribe_button" type="submit">Подписаться</button>
       </form>
     </section>
     <ul class="social_list">
       <li class="social_item">
         <a href="https://vk.com/htmlacademy">
-          <img src="#" alt="вконтакте">
+          <span class="visually-hidden">вконтакте</span>
         </a>
       </li>
       <li class="social_item">
         <a href="https://t.me/htmlacademy">
-          <img src="#" alt="телеграм">
+          <span class="visually-hidden">telegram</span>
         </a>
       </li>
       <li class="social_item">
         <a href="https://www.youtube.com/user/htmlacademyru">
-          <img src="#" alt="ютуб">
+          <span class="visually-hidden">youtube</span>
         </a>
       </li>
     </ul>
